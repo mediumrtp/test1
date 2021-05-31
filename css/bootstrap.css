@@ -628,7 +628,7 @@ progress {
     max-width: 1320px;
   }
 }
-.row {
+.container {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -637,7 +637,7 @@ progress {
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
-.row > * {
+.container > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;

@@ -1,17 +1,16 @@
-.container{
+.container-body{
     width: 70%;
     color: #9b7b4d;
     font-size: 12px;
     background-color: white;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-left:15%
 }
-.containet col-sm-6{
+.col-sm-6{
     text-align: left;
 }
-.containet col-sm-6{
-    text-align: left;
-}
-.row-h p{
+.row-header p{
     color: #9b7b4d;
     padding-left: 5%;
 
@@ -19,7 +18,10 @@
 .container p{
     padding-top: 2%;
 }
-.col-sm-6-r{
+.col-sm-12-body p {
+    padding-top: 2%;
+}
+.col-sm-6-header{
     text-align: right;
     padding-right: 5%;
 }
@@ -64,6 +66,7 @@ li a {
     font: bold 18px/24px "Libre Baskerville";
     color: black;
     margin-top: -40px;
+    background-color: white;
 }
 .col-sm-3 p{
     padding-top: 15%;
@@ -75,6 +78,14 @@ li a {
     font-size: 12px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.col-sm-3-team p1{
+    color: #cca876;
+    float: left;
+}
+.col-sm-3-team p{
+    float: left;
+}
+
 .col-sm-3-icon{
     text-align: left;
     padding: 3%;
@@ -104,7 +115,6 @@ li a {
 }
 .col-sm-12 p1{
     color: #cca876;
-    background-image: ;
 }
 .col-sm-12 h3{
     margin-top: 4%;
@@ -112,17 +122,7 @@ li a {
 .row-p img{
     width: 100%;
 }
-.row-a{
-    padding-top: 4%;
-}
-.row-a a{
-    font-size: 18px;
-    font-style: normal;
-    color: #2c2c2c;
-    font-weight: 400;
-    text-align: left;
-}
-.col-sm-3-a p {
+.col-sm-3-team p {
     text-align: left;
     padding: 1%;
     font-size: 18px;
@@ -130,8 +130,18 @@ li a {
     color: #2c2c2c;
     font-weight: 400;
 }
+.col-sm-3-team img{
+    width: 100%;
+}
+col-sm-3-team p1{
+    color:#cca876
+
+}
+.col-sm-3-team hr{
+    margin-top: 15%;
+}
 .container-text{
-    padding-top: 3%;
+    padding-top: 15%;
 }
 .container-text container{
     text-align: left;
@@ -155,12 +165,15 @@ li a {
     height: 650px;
     position: relative;
 }
-.container-b{
+.container-form{
     margin-top: 5%;
     padding-top: 15%;
-    background-image:url("/home/igor/Desktop/untitled7/img/bg_1.jpeg ");
     width: 100%;
     height: 550px;
+}
+
+.container-form{
+    background-image:url("../img/bg_1.jpeg ");
 }
 
 .name input{
@@ -188,7 +201,7 @@ li a {
     margin-top: 3%;
     background-color: #cca876;
 }
-.container-b p{
+.container-form p{
     color: black;
     text-align: center;
     font-size: initial;
@@ -197,15 +210,24 @@ li a {
     margin-left: 45%;
     font-size: 17px;
     margin-top: -15%;
+    color: white;
 }
+.row-button-request input{
+    color: black;
+    position: center;
+    margin-left: 45%;
+    margin-top: 3%;
+    background-color: #cca876;
+    padding-top: 2%;
+
+ }
 .row navbar{
     text-align: center;
 }
 .container-footer{
-    background-image:url("/home/igor/Desktop/untitled7/img/bg_3.jpeg ");
+    background-image:url("../img/bg_3.jpeg ");
     width: 100%;
     height: 550px;
-    margin-top: 0%;
     padding-top: 15%;
 
 }
@@ -240,29 +262,66 @@ li a {
     margin-left: -20%;
 }
 
-.col-sm-3-3-4{
+.col-sm-3-bottommenu-3-4{
     text-align: left;
 }
-.col-sm-3-3-4 span{
+.col-sm-3-bottommenu-3-4 span{
     color: white;
     font: inherit;
 
-
 }
-
-.col-sm-3-2{
+.col-sm-3-botttommenu-2{
     text-align: left;
-    background-color: none;
+    background-color: transparent;
 
 }
-.col-sm-3-2 h4{
+.col-sm-3-botttommenu-2 h4{
     color: white;
 
 }
-.col-sm-3-1{
+.col-sm-3-bottommenu-1{
     text-align: left;
-    normal 12px/16px "Montserrat";
-    color: #d8d8d8;;
-}
+    normal: 12px/16px "Montserrat";
+    color: #d8d8d8;
+    background-color: transparent;
 
 }
+.col-sm-3-bottommenu-3-4{
+    background-color: transparent;
+}
+.container-body {
+    background-color: white;
+    margin-top: -2%;
+}
+.container-centerline button i{
+    color: black;
+
+}
+.row-form {
+    padding: 20%;
+    margin-top: -35%;
+    width: 100%;
+
+}
+.col-sm-12-1{
+    padding-right: 5%;
+    margin-left: 1%;
+}
+.row-req{
+    padding: 1%;
+    padding-left: 5%;
+
+}
+.row-reqt {
+    pading: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.row-footer{
+    margin-left: 0%;
+    margin-right: 0;
+    padding: 3%;
+    background-color: #404449;
+    text-align: center;
+}
+
